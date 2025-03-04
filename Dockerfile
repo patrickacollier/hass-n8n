@@ -1,5 +1,5 @@
 ARG N8N_VERSION
-FROM n8nio/n8n:${N8N_VERSION}
+FROM n8nio/n8n:1.81.4
 USER root
 RUN apk add --no-cache --update \
     jq \
